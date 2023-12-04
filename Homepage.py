@@ -21,11 +21,9 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("Left column content goes here. Modify this according to your needs.")
+        st.write("Hi there welcome to my webpage please feel freee to explore my webpage ")
 
-    with right_column:
-        # Right column content goes here
-        pass  # Placeholder, you can add your content here
+    
 
 
  
