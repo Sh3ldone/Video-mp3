@@ -24,8 +24,6 @@ local_css("pages/style/style.css")
   
 with st.container():
     st.write("---")
-
-with st.container():
-    st.subheader("If you wish to contact or explore our band, kindly click here [Facebook page >](https://www.facebook.com/profile.php?id=100087410452063)")
+ 
 
 
