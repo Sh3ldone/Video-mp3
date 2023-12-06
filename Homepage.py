@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="My Music Webpage",
+    page_title="My Webpage",
     page_icon=":musical_notes:",
     layout="wide",
 )
