@@ -31,8 +31,9 @@ with st.container():
         From programming challenges to innovative solutions, I strive to showcase the endless possibilities that coding offers
         If you have any questions, feedback, or just want to say hello, don't hesitate to reach out. 
         Your support means a lot to me, and I look forward to connecting with you on this exciting journey of exploration and learning
-        Thank you once again for being a part of this community. Happy coding! [Click here](https://www.w3schools.com/python/)
+        Thank you once again for being a part of this community. 
         """)
+        st.write("Happy coding! [Click here](https://www.w3schools.com/python/)")
 
 
 
