@@ -1,11 +1,11 @@
-from PIL import Image  # Fix the import statement for PIL
+from PIL import Image
 import streamlit as st
 
 st.title("📖Projects")
 
-# Assuming img_lottie_animation is an image file, you need to load it with Image.open
-img_contact_form + image.open("images/me.jpg")
-img_lottie_animation = Image.open("images/me.jpg")
+# Assuming img_contact_form is an image file, you need to load it with Image.open
+img_contact_form = Image.open("images/me.jpg")
+img_me = Image.open("images/me.jpg")
 
 with st.container:
     st.write("---")
@@ -15,7 +15,7 @@ with st.container:
     image_column, text_column = st.columns((1, 2))
     
     with image_column:
-        st.image(img_lottie_animation)
+        st.image(img_contact_form)
     
     with text_column:
         st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
