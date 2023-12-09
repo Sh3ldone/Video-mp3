@@ -4,8 +4,8 @@ import streamlit as st
 st.title("📖Projects")
 
 # Assuming img_contact_form is an image file, you need to load it with Image.open
-img_contact_form = Image.open("images/me.jpg")
-img_me = Image.open("images/me.jpg")
+img_contact_form = Image.open("images/me.png")
+img_me = Image.open("images/me.png")
 
 with st.container:
     st.write("---")
