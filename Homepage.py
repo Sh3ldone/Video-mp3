@@ -21,7 +21,8 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("Hi there welcome to my webpage please feel freee to explore my webpage ")
+        st.write("Good day everyone thank you for visiting my page I am Sheldone Dacuya the creator of this website i am glad because i learned a lot of things specially in programming
+        in this website")
 
 
 
