@@ -18,8 +18,7 @@ with st.container():
         st.image(img_contact_form)
     
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
-        st.subheader("I'm a musician, that's why I created this project so that I can easily convert our band's performance into music MP3.")
+        st.write("I'm a musician, that's why I created this project so that I can easily convert our band's performance into music MP3.")
 
 st.write("If you wish to convert video into mp3 just click here👇")
 st.write("[convert here >](https://6a3detmwvyutciekoywziu.streamlit.app/)")
