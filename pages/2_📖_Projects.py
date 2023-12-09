@@ -1,8 +1,25 @@
-import streamlit as st 
+from PIL import Image  # Fix the import statement for PIL
+import streamlit as st
 
 st.title("📖Projects")
-st.subheader("I'm a musician, that's why I created this project so that I can easily convert our band's performance into music MP3.")
 
+# Assuming img_lottie_animation is an image file, you need to load it with Image.open
+img_contact_form + image.open("images/me.jpg")
+img_lottie_animation = Image.open("images/me.jpg")
+
+with st.container:
+    st.write("---")
+    st.header("My Projects")
+    st.write("##")
+    
+    image_column, text_column = st.columns((1, 2))
+    
+    with image_column:
+        st.image(img_lottie_animation)
+    
+    with text_column:
+        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("I'm a musician, that's why I created this project so that I can easily convert our band's performance into music MP3.")
 
 st.write("If you wish to convert video into mp3 just click here👇")
 st.write("[convert here >](https://6a3detmwvyutciekoywziu.streamlit.app/)")
