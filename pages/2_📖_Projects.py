@@ -9,7 +9,7 @@ img_me = Image.open("images/me.png")
 
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("My Project")
     st.write("##")
     
     image_column, text_column = st.columns((1, 2))
