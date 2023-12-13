@@ -57,7 +57,7 @@ def main():
     script_dir = os.path.dirname(__file__)
     lottie_file_path = os.path.join(script_dir, "lottiefiles", "don.json")
     
-    lottie_coding = load_lottie_file(lottiefiles\don.json)  # replace link to local lottie file
+    lottie_coding = load_lottie_file(lottie_file_path)  # replace link to local lottie file
     lottie_hello = load_lottie_url("https://assets9.lottiefiles.com/packages/lf20_M9p23l.json")
 
     st_lottie(
@@ -73,8 +73,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
 
 
     
