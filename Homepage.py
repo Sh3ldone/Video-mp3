@@ -1,7 +1,8 @@
-from streamlit_lottie import st_lottie
 import streamlit as st
+import os
 import json
 import requests
+from streamlit_lottie import st_lottie
 
 
 # GitHub: https://github.com/andfanilo/streamlit-lottie
