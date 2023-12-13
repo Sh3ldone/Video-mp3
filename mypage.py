@@ -8,7 +8,7 @@ def load_lottie_file(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-lottie_coding = load_lottie_file(lottiefiles/don.json")
+lottie_coding = load_lottie_file("lottiefiles/don.json")
 
  
 
