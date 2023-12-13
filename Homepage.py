@@ -1,8 +1,8 @@
-import json
-import os
-import requests
-import streamlit as st
 from streamlit_lottie import st_lottie
+import streamlit as st
+import json
+import requests
+
 
 # GitHub: https://github.com/andfanilo/streamlit-lottie
 # Lottie Files: https://lottiefiles.com/
