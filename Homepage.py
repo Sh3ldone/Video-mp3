@@ -53,7 +53,7 @@ def main():
 
     st.write("Lottie Animation Example:")
     
-    lottie_coding = load_lottie_file(r"C:\testing\lottiefiles\don.json")  # replace link to local lottie file
+    lottie_coding = load_lottie_file(r"C:\website\lottiefiles\don.json")  # replace link to local lottie file
     lottie_hello = load_lottie_url("https://assets9.lottiefiles.com/packages/lf20_M9p23l.json")
 
     st_lottie(
