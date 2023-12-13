@@ -4,19 +4,13 @@ import json
 import requests
 from streamlit_lottie import st_lottie
 
-
-# GitHub: https://github.com/andfanilo/streamlit-lottie
-# Lottie Files: https://lottiefiles.com/
-
 def load_lottie_file(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-def load_lottie_url(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+lottie_coding = load_lottie_file("C:/website/lottiefiles/don.json")
+
+ 
 
 def main():
     st.set_page_config(
@@ -53,20 +47,13 @@ def main():
             """)
             st.write(" Thank you once again for being a part of this community. Happy coding! [Click here](https://www.w3schools.com/python/)")
 
-    st.write("Lottie Animation Example:")
-    
-    script_dir = os.path.dirname(__file__)
-    lottie_file_path = os.path.join(script_dir, "lottiefiles", "don.json")
-    
-    lottie_coding = load_lottie_file(lottie_file_path)  # replace link to local lottie file
-    lottie_hello = load_lottie_url("https://assets9.lottiefiles.com/packages/lf20_M9p23l.json")
-
-    st_lottie(
+        with right_column:
+            st_lottie(
         lottie_coding,
         speed=1,
         reverse=False,
         loop=True,
-        quality="low",  # medium ; high
+        quality="high",  # medium ; high
         height=None,
         width=None,
         key=None,
@@ -74,6 +61,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+                
+    
+   
+   
+ 
+
 
 
     
