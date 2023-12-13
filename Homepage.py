@@ -8,9 +8,7 @@ def load_lottie_file(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-lottie_coding = load_lottie_file("lottiefiles/don.json")
-
- 
+lottie_coding = load_lottie_file("C:/website/lottiefiles/don.json")
 
 def main():
     st.set_page_config(
@@ -20,7 +18,6 @@ def main():
     )
 
     st.title("Introduction")
-    st.sidebar.success("Select a page above.")
 
     with st.container():
         st.header("Hi, I am Sheldone R. Dacuya :wave:")
@@ -47,30 +44,21 @@ def main():
             """)
             st.write(" Thank you once again for being a part of this community. Happy coding! [Click here](https://www.w3schools.com/python/)")
 
-        with right_column:
-            st_lottie(
-        lottie_coding,
-        speed=1,
-        reverse=False,
-        loop=True,
-        quality="high",  # medium ; high
-        height=None,
-        width=None,
-        key=None,
-    )
+    with st.container():
+        st.sidebar.success("Select a page above.")
+    
+    with right_column:
+        st_lottie(
+            lottie_coding,
+            speed=1,
+            reverse=False,
+            loop=True,
+            quality="high",  # medium ; high
+            height=None,
+            width=None,
+            key=None,
+        )
 
 if __name__ == "__main__":
     main()
 
-                
-    
-   
-   
- 
-
-
-
-    
-
-
- 
